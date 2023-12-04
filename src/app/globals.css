@@ -30,7 +30,7 @@
 }
 
 .main-header-section{
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;

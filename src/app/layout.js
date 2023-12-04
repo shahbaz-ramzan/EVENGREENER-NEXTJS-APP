@@ -26,7 +26,16 @@ export default function RootLayout({ children }) {
                <Image src="/icons/instagram.svg" alt='instagram' width={25} height={25}/>
                <Image src="/icons/facebook.svg" alt='facebook' width={25} height={25}/>
                <Image src="/icons/pinterest.svg" alt='pinterest' width={25} height={25}/>
-             </div>
+            </div>
+            <div>
+              <Image src="/images/evengreener-logo.avif" alt='logo' width={80} height={80}/>
+            </div>
+            <div>
+              <Image src="icons/search.svg" alt='search' width={25} height={25} />
+              <Image src="icons/likes.svg" alt='likes' width={25} height={25} />
+              <Image src="icons/user.svg" alt='user' width={25} height={25} />
+              <Image src="icons/cart.svg" alt='cart' width={25} height={25} />
+            </div>
           </div>
           <div className='menu-bar'>
             <Header />
