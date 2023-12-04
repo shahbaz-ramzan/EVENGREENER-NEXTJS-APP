@@ -2,5 +2,44 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
+}
+
+.wrapper-div{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.bannerinner{
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+  width: 100%;
+  min-height: 45px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.menu-bar{
+  background-color: white;
+  font-size: 14px;
+  padding: 16px 0px 0px 0px;
+}
+
+.main-header-section{
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-div{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  min-height: 100px;
 }

@@ -3,7 +3,7 @@
   flex-direction: row;
   width: 100%;
   min-height: 30px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   align-items: center;
   justify-content: space-around
 }
