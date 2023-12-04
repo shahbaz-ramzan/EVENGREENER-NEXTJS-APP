@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
+import styles from "./page.module.css"
 
 export default function Header() {
   return (
       <>
-          <nav>
+          <nav className={styles.navbar}>
               <li><Link href="/">OFFERS</Link></li>
               <li><Link href="/">MOST WANTED</Link></li>
               <li><Link href="/">GARDENING</Link></li>
