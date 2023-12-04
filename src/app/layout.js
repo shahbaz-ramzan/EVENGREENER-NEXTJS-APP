@@ -1,8 +1,9 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from './header'
-import Footer from './footer'
+// import Footer from './footer'
 import Image from 'next/image'
+// import HomeImage from './image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,32 +17,41 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className} >
         <div className='wrapper-div'>
+          <div className='header-wrapper-div'>
+
           <div className="bannerinner">
             <h3>Text to display</h3>
           </div>
           <div className='main-header-section'>
-             <div className='logo-div'>
-               <Image src="/icons/tiktok.svg" alt='tiktok' width={25} height={25}/>
-               <Image src="/icons/youtube.svg" alt='youtube' width={25} height={25}/>
-               <Image src="/icons/instagram.svg" alt='instagram' width={25} height={25}/>
-               <Image src="/icons/facebook.svg" alt='facebook' width={25} height={25}/>
-               <Image src="/icons/pinterest.svg" alt='pinterest' width={25} height={25}/>
+             <div className='social-logo-div'>
+               <Image src="/icons/tiktok.svg" alt='tiktok' width={25} height={25} className='social-icons'/>
+               <Image src="/icons/youtube.svg" alt='youtube' width={25} height={25} className='social-icons'/>
+               <Image src="/icons/instagram.svg" alt='instagram' width={25} height={25} className='social-icons'/>
+               <Image src="/icons/facebook.svg" alt='facebook' width={25} height={25} className='social-icons'/>
+               <Image src="/icons/pinterest.svg" alt='pinterest' width={25} height={25} className='social-icons'/>
             </div>
-            <div>
-              <Image src="/images/evengreener-logo.avif" alt='logo' width={80} height={80}/>
+            <div className='company-logo-div'>
+              <Image src="/images/evengreener-logo.avif" alt='logo' width={175} height={80}/>
             </div>
-            <div>
-              <Image src="icons/search.svg" alt='search' width={25} height={25} />
-              <Image src="icons/likes.svg" alt='likes' width={25} height={25} />
-              <Image src="icons/user.svg" alt='user' width={25} height={25} />
-              <Image src="icons/cart.svg" alt='cart' width={25} height={25} />
+            <div className='search-div'>
+              <Image src="icons/search.svg" alt='search' width={25} height={25} className='icons-class'/>
+              <Image src="icons/likes.svg" alt='likes' width={25} height={25} className='icons-class'/>
+              <Image src="icons/user.svg" alt='user' width={25} height={25} className='icons-class'/>
+              <Image src="icons/cart.svg" alt='cart' width={25} height={25} className='icons-class'/>
             </div>
           </div>
           <div className='menu-bar'>
             <Header />
           </div>
+          <div className='promo-code-text'>
+             <h5> USE CODE XMAS20 FOR 20% OFF ALL PRODUCTS.</h5>
+             <h5>ENDS 22nd DECEMBER.</h5>
+          </div>
+          </div>
+          <div className='content-dev'>
+
           {children}
-        <Footer />
+          </div>
         </div>     
       </body>
     </html>

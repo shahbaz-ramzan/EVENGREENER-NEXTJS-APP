@@ -14,7 +14,7 @@
 .bannerinner{
   display: flex;
   flex-direction: row;
-  background-color: green;
+  background-color: #3d7458;
   width: 100%;
   min-height: 45px;
   font-size: 14px;
@@ -35,11 +35,73 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* position: fixed; */
 }
 
-.logo-div{
+.header-wrapper-div{
+  width: 100%;
+  min-height: auto;
+  position: fixed;
+ 
+}
+
+.content-dev{
+  /* display: flex; */
+  width: 100%;
+  position: absolute;
+  top: 231px;
+}
+
+.social-logo-div{
   display: flex;
   flex-direction: row;
   width: 30%;
   min-height: 100px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+}
+.social-icons{
+  margin-left: 15PX;
+}
+
+.company-logo-div{
+  display: flex;
+  width: 40%;
+  min-height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-div{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icons-class{
+  margin-left: 10px;
+}
+
+.promo-code-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #69B236;
+  width: 100%;
+  min-height: 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  
+}
+
+.home-img-class {
+  width: 100%;
+  height: auto;
+  
 }
