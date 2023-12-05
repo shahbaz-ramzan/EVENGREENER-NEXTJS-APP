@@ -24,20 +24,21 @@ export default function RootLayout({ children }) {
           </div>
           <div className='main-header-section'>
              <div className='social-logo-div'>
-               <Image src="/icons/tiktok.svg" alt='tiktok' width={25} height={25} className='social-icons'/>
-               <Image src="/icons/youtube.svg" alt='youtube' width={25} height={25} className='social-icons'/>
-               <Image src="/icons/instagram.svg" alt='instagram' width={25} height={25} className='social-icons'/>
-               <Image src="/icons/facebook.svg" alt='facebook' width={25} height={25} className='social-icons'/>
-               <Image src="/icons/pinterest.svg" alt='pinterest' width={25} height={25} className='social-icons'/>
+             <a href='/'><Image src="/icons/tiktok.svg" alt='tiktok' width={25} height={25} className='social-icons'/></a>
+             <a href='/'><Image src="/icons/youtube.svg" alt='youtube' width={25} height={25} className='social-icons'/></a>
+             <a href='/'> <Image src="/icons/instagram.svg" alt='instagram' width={25} height={25} className='social-icons'/></a>
+             <a href='/'><Image src="/icons/facebook.svg" alt='facebook' width={25} height={25} className='social-icons'/></a>
+             <a href='/'> <Image src="/icons/pinterest.svg" alt='pinterest' width={25} height={25} className='social-icons'/></a>
             </div>
             <div className='company-logo-div'>
-              <Image src="/images/evengreener-logo.avif" alt='logo' width={175} height={80}/>
+             <a href='/'> <Image src="/images/evengreener-logo.avif" alt='logo' width={175} height={80}/></a>
             </div>
             <div className='search-div'>
-              <Image src="icons/search.svg" alt='search' width={25} height={25} className='icons-class'/>
-              <Image src="icons/likes.svg" alt='likes' width={25} height={25} className='icons-class'/>
-              <Image src="icons/user.svg" alt='user' width={25} height={25} className='icons-class'/>
-              <Image src="icons/cart.svg" alt='cart' width={25} height={25} className='icons-class'/>
+              <a href='/'>  <Image src="icons/search.svg" alt='search' width={25} height={25} className='icons-class' /></a>
+                <a href='/'>Search</a>
+             <a href='/'> <Image src="icons/likes.svg" alt='likes' width={25} height={25} className='icons-class'/></a>
+              <a href='/'><Image src="icons/user.svg" alt='user' width={25} height={25} className='icons-class'/></a>
+              <a href='/'><Image src="icons/cart.svg" alt='cart' width={25} height={25} className='icons-class'/></a>
             </div>
           </div>
           <div className='menu-bar'>

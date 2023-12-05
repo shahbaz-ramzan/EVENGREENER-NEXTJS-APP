@@ -19,5 +19,36 @@
 
 .imagediv{
   width: 100%;
-  height: auto;
+  height: 650px;
+  display: flex;
+  align-items: flex-end;
+  /* margin-bottom: 30px; */
+}
+
+.homeimagetext{
+  padding-bottom: 40px;
+  padding-left: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeimagetext h3{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.homeimagetext p{
+  /* font-size: large; */
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.productcardwrapper{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 600px;
 }

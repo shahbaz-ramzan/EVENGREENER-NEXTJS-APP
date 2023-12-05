@@ -8,8 +8,14 @@ export default function Home() {
     <>
       <div>
         <HomeImage />
-        <Footer />
-          </div>
+        <div className={styles.productcardwrapper}>
+          <section className={styles.nestedproductcard}></section>
+          <section className={styles.nestedproductcard}></section>
+          <section className={styles.nestedproductcard}></section>
+          <section className={styles.nestedproductcard}></section>
+        </div>
+        {/* <Footer /> */}
+       </div>
     </>
   )
 }
