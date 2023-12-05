@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
           <div className='header-wrapper-div'>
 
           <div className="bannerinner">
-            <h3>Text to display</h3>
+            <h3 className='text-to-display'>Text to display</h3>
           </div>
           <div className='main-header-section'>
              <div className='social-logo-div'>

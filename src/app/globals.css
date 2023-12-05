@@ -23,6 +23,17 @@
   color: white;
 }
 
+.text-to-display{
+  animation: move 2s infinite;
+
+}
+
+
+@keyframes move {
+  from { margin-left: 0px; }
+  to { margin-left: 100px; }
+}
+
 .menu-bar{
   background-color: white;
   font-size: 14px;
